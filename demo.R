@@ -16,3 +16,7 @@ mtcars |>
     max_mpg = max(mpg)
   ) |>
   ungroup()
+
+
+# Plot -----
+plot(mtcars$mpg, mtcars$wt)
