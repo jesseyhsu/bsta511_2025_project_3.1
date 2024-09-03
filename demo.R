@@ -11,6 +11,7 @@ mtcars |>
   group_by(cyl) |>
   summarise(
     mean_mpg = mean(mpg),
+    sd_mpg = sd(mpg),
     min_mpg = min(mpg),
     max_mpg = max(mpg)
   ) |>
