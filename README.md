@@ -1,1 +1,1 @@
-Hello World!
+Git Version Control Demo Project #1
