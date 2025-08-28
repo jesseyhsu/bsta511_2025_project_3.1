@@ -20,3 +20,9 @@ mtcars |>
 
 # Plot -----
 plot(mtcars$mpg, mtcars$wt)
+
+# ggplot2 equivalent
+mtcars |>
+  ggplot(aes(x = mpg, y = wt)) +
+  geom_point() +
+  theme_minimal()
