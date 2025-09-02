@@ -25,4 +25,5 @@ plot(mtcars$mpg, mtcars$wt)
 mtcars |>
   ggplot(aes(x = mpg, y = wt)) +
   geom_point() +
-  theme_minimal()
+  theme_minimal() +
+  labs(xlab = "Miles per gallan", ylab = "Weight")
